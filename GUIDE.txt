@@ -18,3 +18,5 @@ Step 5: Click the import button
 
 	Email - test@gmail.com
 	Password - Test@123
+
+Then importantly create an empty folder in hrms folder named as "uploads". Here all the images uploaded will be stored automatically.
