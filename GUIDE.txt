@@ -1,0 +1,20 @@
+After extracting the zip file, place the Homepage folder in the following location in your system
+Location - "C:\xampp\htdocs"
+
+
+Database - 
+Step 1: Go to localhost/phpmyadmin
+Step 2: Create a database named as "hrms"
+Step 3: Go to import section and select the choose file option
+Step 4: Choose the "hrms.sql" file from the folder name "sql" inside the hrms folder
+Step 5: Click the import button
+
+1) Admin(HR) User Credentials
+
+	Email - admin@gmail.com
+	Password - Admin@123
+
+2) Employee User Credentials
+
+	Email - test@gmail.com
+	Password - Test@123

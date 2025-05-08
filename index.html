@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HR Management System</title>
+  <style>
+    /* Reset and Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Header */
+    .header {
+      background-color: #2d3e50;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .gateway-container {
+      margin-top: 30px;
+    }
+
+    .gateway {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background-color: #ffffff;
+      color: #2d3e50;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .gateway:hover {
+      background-color: #f0f0f0;
+      transform: scale(1.05);
+    }
+
+    /* Features Section */
+    .features {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: #ffffff;
+      flex-grow: 1;
+    }
+
+    .features h3 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #2d3e50;
+    }
+
+    .features-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .feature {
+      width: 280px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background-color: #f9f9f9;
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature img {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 15px;
+    }
+
+    .feature h4 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .feature p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #2d3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #ddd;
+      text-decoration: underline;
+    }
+
+    .footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <h1>HR Management System</h1>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to Your HR Solution</h2>
+    <p>Manage employees, streamline HR processes, and boost organizational efficiency all in one place.</p>
+
+    <!-- Login Gateways -->
+    <div class="gateway-container">
+      <a href="admin/login.html" class="gateway">Login</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h3>Why Use Our HR Management System?</h3>
+    <div class="features-grid">
+      <div class="feature">
+        <img src="images/Attendance.jpg" alt="Attendance Management" />
+        <h4>Attendance Management</h4>
+        <p>Track and manage employee attendance effortlessly.</p>
+      </div>
+      <div class="feature">
+        <img src="images/employee_data.jpg" alt="Data Management" />
+        <h4>Employee Data Centralized</h4>
+        <p>Keep all employee records organized and easily accessible.</p>
+      </div>
+      <div class="feature">
+        <img src="images/user-friendly.jpg" alt="User Friendly" />
+        <h4>Intuitive Interface</h4>
+        <p>Experience a user-friendly system with smooth navigation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 HR Management System. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+  </div>
+</body>
+</html>
